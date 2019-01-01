@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import {ReactiveBase,DateRange, NumberBox,RangeSlider,ResultCard} from '@appbaseio/reactivesearch'
+import ReactForm from './ReactForm'
 
 class App extends Component {
   render() {
@@ -84,6 +85,7 @@ class App extends Component {
           }}
 
           />
+          <ReactForm/>
 
         </ReactiveBase>
       </section>
