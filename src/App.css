@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
 
 .App-header {
   background-color: #222;
@@ -130,7 +126,7 @@
 }
 
 @media all and (min-width: 1441px){
-  ..container .right-col .list-item {
+  .container .right-col .list-item {
     width: calc(25% - 16px);
   }
 }
@@ -154,4 +150,9 @@
     width: calc(100% - 16px);
     margin-bottom: 20px;
   }
+}
+.cart-item{
+  border-bottom:2px solid rgba(70, 6, 51, 0.555);
+  padding-top:30px;
+  padding-bottom:30px;
 }
